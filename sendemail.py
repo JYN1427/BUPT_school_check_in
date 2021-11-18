@@ -8,12 +8,12 @@ def send_email(receiver):
     mail_host = 'smtp.126.com'
 
     # 126用户名和密码
-    mail_user = 'jialaolao'
+    mail_user = '...'
     # 密码(部分邮箱为授权码)
-    mail_pass = 'WIZEJWMDVVEBKFVM'
+    mail_pass = '...'
 
     # 邮件发送方邮箱地址，接收方就是receiver
-    sender = 'jialaolao@126.com'
+    sender = '...@126.com'
 
     # 邮件内容设置
     now = time.strftime("%Y-%m-%d", time.localtime())
